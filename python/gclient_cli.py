@@ -7,8 +7,7 @@ import os
 import glanceclient
 from keystoneclient.v2_0 import client as keystone_client
 
-os_vars = {'OS_TENANT_ID': None,
-           'OS_PASSWORD': None,
+os_vars = {'OS_PASSWORD': None,
            'OS_AUTH_URL': None,
            'OS_USERNAME': None,
            'OS_TENANT_NAME': None}
