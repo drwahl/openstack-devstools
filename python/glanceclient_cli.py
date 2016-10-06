@@ -21,7 +21,7 @@ endpoint = kclient.service_catalog.url_for(
     service_type='image',
     endpoint_type='publicURL')
 
-gclient = glanceclient.client.Client(endpoint=endpoint + '/v1', token=kclient.auth_token)
+gclient = glanceclient.client.Client('2', endpoint=endpoint, token=kclient.auth_token)
 
 del (kclient, endpoint)
 

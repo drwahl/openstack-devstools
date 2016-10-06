@@ -18,7 +18,7 @@ cclient = client.Client(
 
 print("""
 #################################################
-# Nova API access available through 'mclient.*' #
+# Nova API access available through 'cclient.*' #
 # example: cclient.volumes.list()               #
 #################################################
 """)

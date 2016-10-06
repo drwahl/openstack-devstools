@@ -19,7 +19,7 @@ nclient = client.Client(
 
 print("""
 #################################################
-# Nova API access available through 'mclient.*' #
+# Nova API access available through 'nclient.*' #
 # example: nclient.flavors.list()               #
 #################################################
 """)
