@@ -17,10 +17,10 @@ cclient = client.Client(
 )
 
 print("""
-#################################################
-# Nova API access available through 'cclient.*' #
-# example: cclient.volumes.list()               #
-#################################################
+###################################################
+# Cinder API access available through 'cclient.*' #
+# example: cclient.volumes.list  ()               #
+###################################################
 """)
 
 vars = globals()

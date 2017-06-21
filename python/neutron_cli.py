@@ -17,10 +17,10 @@ nclient = client.Client(
 )
 
 print("""
-#################################################
-# Nova API access available through 'mclient.*' #
-# example: nclient.list_subnets()               #
-#################################################
+####################################################
+# Neutron API access available through 'nclient.*' #
+# example: nclient.list_subnets()                  #
+####################################################
 """)
 
 vars = globals()
