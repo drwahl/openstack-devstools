@@ -4,12 +4,13 @@ import code
 import readline
 import rlcompleter
 import os
-from novaclient.v2 import client
+from novaclient import client
 import openstack_variables
 
 osvars = openstack_variables.get()
 
 nclient = client.Client(
+    2.0,
     osvars['OS_USERNAME'],
     osvars['OS_PASSWORD'],
     osvars['OS_TENANT_NAME'],
